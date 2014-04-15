@@ -1,0 +1,410 @@
+html,body{
+	margin:0;
+	padding:0;
+}
+
+body{
+	/*font: 76% arial,sans-serif;*/
+	font-family: 'Averia Serif Libre', cursive;
+	text-align:center;
+	background-color: #023348;
+}
+
+div#container{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
+	text-align: left;
+	border: thin solid gray;
+	background-color: White;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	padding: 10px;
+	min-height: 600px;
+}
+
+div#main{
+	background-color: #dddddd;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	min-height: 550px;
+	clear:both;
+	width: 90%;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+div#main div{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+div#main ul{
+	color: #4682B4;
+}
+
+div#main h1{
+	color: #4682B4;
+	margin-left: 25px;
+	margin-right: 25px;
+	/*font: bold 12px Verdana, Arial, Helvetica, sans-serif;*/
+	font-family: 'Averia Serif Libre', cursive;
+}
+
+div#main form{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+div#footerImage{
+	width: 85%;
+}
+
+div#footerImage img{
+	width: 150px;
+	height: 150px;
+}
+
+div#footer{
+	width:90%;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+
+div#footer{
+	color: Black;
+	text-align: center;
+	font-style: italic;
+	font-size: 10px;
+	/*font-family:Arial,Verdana,Helvitica,sans-serif;*/
+	font-family: 'Averia Serif Libre', cursive;
+}
+
+div#footer a{
+	display:inline;
+	padding:0;
+	color: Black;
+}
+
+div#footer{
+	clear:left;
+}
+
+.wbr:before{
+	content: "\200B";
+}
+
+.autoMargin{
+	margin-left: auto;
+    	margin-right: auto;
+}
+
+.textfield{
+    	font-size: 1.3em;
+    	color: black;
+    	margin-left:15%;
+    	margin-right:15%;
+    	clear:both;
+}
+
+.textfield p{
+	text-align:justify;
+}
+
+.textfield h2{
+	/*font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;*/
+	font-family: 'Averia Serif Libre', cursive;
+	font-size: 16pt;
+        font-weight: bold;
+	color: navy;
+	padding-top: 12px;
+	padding-bottom: 3px
+}
+
+.textfield h3{
+	/*font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;*/
+	font-family: 'Averia Serif Libre', cursive;
+	font-size: 12pt;
+        font-weight: bold;
+	color: navy;
+	padding-top: 12px;
+	padding-bottom: 3px
+}
+
+a {
+	color: black;
+	font-size: 11px;
+}
+
+a:hover {
+	color: #4682B4;
+}
+
+.err {
+	color: #FF9900;
+}
+
+.error{
+    	background:transparent url('../images/errormsg.png') no-repeat top left;
+    	width:203px;
+    	height:50px;
+    	position:absolute;
+    	right:-0px;
+    	font-size:11px;
+    	color:#fff;
+}
+
+.error span{
+    	margin-left:25px;
+    	line-height:40px;
+    	text-shadow:1px 1px 1px #555;
+}
+.loader{
+    	background:transparent url('../images/ajax-loader.gif') no-repeat top left;
+    	width:31px;
+    	height:31px;
+    	float:right;
+    	margin-top:35px;
+}
+.success{
+    	height:31px;
+    	float:right;
+    	margin:35px 10px 0px 0px;
+}
+
+.alert{
+	color: red;
+}
+
+.hideableGroup{
+	display: none;
+}
+
+.prettyForm{
+    	padding-top: 10px;
+    	padding-bottom: 10px;
+    	margin-left: 25%;
+    	margin-right: 20%;
+    	clear: both;
+    	font-family: Georgia, serif;
+    	font-size: 20px;
+    	font-style: italic;
+}
+
+.prettyForm h2{
+    	text-shadow:2px 1px 2px #f9f9f9;
+    	/*font-family: Georgia, serif;*/
+	font-family: 'Averia Serif Libre', cursive;
+    	font-size: 20px;
+    	font-style: italic;
+}
+
+.prettyForm p{
+    	color: black;
+    	font-size: 14px;
+    	/*font-family:Arial,Verdana,Helvitica,sans-serif;*/
+	font-family: 'Averia Serif Libre', cursive;
+    	text-align: justify;
+}
+
+.prettyForm label{
+    	color: black;
+    	text-shadow:1px 1px 1px #f0f0f0;
+    	line-height:20px;
+}
+
+.prettyForm small{
+    	color: black;
+}
+
+.prettyForm input[type="text"],
+.prettyForm input[type="password"],
+.prettyForm textarea{
+    	float:left;
+    	margin:5px 0px 5px 0px;
+    	/*font-family: Georgia, serif;*/
+	font-family: 'Averia Serif Libre', cursive;
+    	font-size: 16px;
+    	font-style: italic;
+    	font-weight: normal;
+    	letter-spacing: normal;
+    	padding:4px 4px 6px 4px;
+    	width:398px;
+    	border:1px solid #ddd;
+    	color:#B7312C;
+    	text-shadow:-1px 1px 1px #aaa;
+    	-moz-border-radius:5px;
+    	-webkit-border-radius:5px;
+    	border-radius:5px;
+    	-moz-box-shadow:1px 1px 3px #000;
+    	-webkit-box-shadow:1px 1px 3px #000;
+    	box-shadow:1px 1px 3px #000;
+}
+
+.prettyForm input[type="text"]#eventDate{
+    	float:left;
+    	margin:5px 0px 5px 0px;
+    	/*font-family: Georgia, serif;*/
+	font-family: 'Averia Serif Libre', cursive;
+    	font-size: 16px;
+    	font-style: italic;
+    	font-weight: normal;
+    	letter-spacing: normal;
+    	padding:4px 4px 6px 4px;
+    	width:300px;
+    	border:1px solid #ddd;
+    	color:#B7312C;
+    	text-shadow:-1px 1px 1px #aaa;
+    	-moz-border-radius:5px;
+    	-webkit-border-radius:5px;
+    	border-radius:5px;
+    	-moz-box-shadow:1px 1px 3px #000;
+    	-webkit-box-shadow:1px 1px 3px #000;
+    	box-shadow:1px 1px 3px #000;
+}
+
+.prettyForm textarea{
+    	overflow-x:hidden;
+}
+.prettyForm input[type="text"]:focus,
+.prettyForm input[type="password"]:focus,
+.prettyForm textarea:focus{
+    	-moz-box-shadow:0px 0px 8px #e73c00;
+    	-webkit-box-shadow:0px 0px 8px #e73c00;
+    	box-shadow:0px 0px 8px #e73c00;
+    	background-color: lightyellow;
+}
+.prettyForm input[type="button"],
+.prettyForm input[type="submit"],
+.prettyForm input[type="reset"]{
+    	background:transparent url() no-repeat bottom center;
+    	width: auto;
+    	height:65px;
+    	cursor:pointer;
+    	color:#B7312C;
+    	border:none;
+    	/*font-family: Georgia, serif;*/
+	font-family: 'Averia Serif Libre', cursive;
+    	font-weight:bold;
+    	font-size:26px;
+    	padding-left:15px;
+    	cursor:pointer;
+    	margin:5px -10px 0px 0px;
+    	text-shadow:1px 1px 1px #000;
+}
+.prettyForm input[type="button"]:hover,
+.prettyForm input[type="submit"]:hover,
+.prettyForm input[type="reset"]:hover{
+    	color:#fff;
+}
+.prettyForm p.submit{
+    	height:25px;
+}
+.prettyForm label span{
+    	font-size:11px;
+    	line-height:20px;
+    	float:right;
+    	margin-left:3px;
+    	font-weight:bold;
+    	color:#f0f0f0;
+    	text-shadow:1px 0px 1px #000;
+}
+
+.smallPrettyForm{
+    	padding-top: 10px;
+    	padding-bottom: 10px;
+    	margin-left: 25%;
+    	margin-right: 25%;
+    	/*font-family: Georgia, serif;*/
+	font-family: 'Averia Serif Libre', cursive;
+    	font-size: 12px;
+    	font-style: italic;
+}
+
+.smallPrettyForm p{
+    	color: black;
+    	font-size: 12px;
+    	/*font-family:Arial,Verdana,Helvitica,sans-serif;*/
+	font-family: 'Averia Serif Libre', cursive;
+    	text-align: justify;
+}
+
+.smallPrettyForm label{
+    	color: black;
+    	text-shadow:1px 1px 1px #f0f0f0;
+    	line-height:20px;
+}
+
+.smallPrettyForm input[type="text"]{
+    	float:left;
+    	margin:5px 0px 5px 0px;
+    	/*font-family: Georgia, serif;*/
+	font-family: 'Averia Serif Libre', cursive;
+    	font-size: 12px;
+    	font-style: italic;
+    	font-weight: normal;
+    	letter-spacing: normal;
+    	padding:4px 4px 6px 4px;
+    	width:300px;
+    	border:1px solid #ddd;
+    	color:#e73c00;;
+    	text-shadow:-1px 1px 1px #aaa;
+    	-moz-border-radius:5px;
+    	-webkit-border-radius:5px;
+    	border-radius:5px;
+    	-moz-box-shadow:1px 1px 3px #000;
+    	-webkit-box-shadow:1px 1px 3px #000;
+    	box-shadow:1px 1px 3px #000;
+}
+
+.smallPrettyForm input[type="text"]:focus{
+    	-moz-box-shadow:0px 0px 8px #e73c00;
+    	-webkit-box-shadow:0px 0px 8px #e73c00;
+    	box-shadow:0px 0px 8px #e73c00;
+    	background-color: lightyellow;
+}
+
+.smallPrettyForm input[type="button"],
+.smallPrettyForm input[type="submit"],
+.smallPrettyForm input[type="reset"]{
+    	background:transparent url() no-repeat bottom center;
+    	width: auto;
+    	height:35px;
+    	cursor:pointer;
+    	color:#B7312C;
+    	border:none;
+    	/*font-family: Georgia, serif;*/
+	font-family: 'Averia Serif Libre', cursive;
+    	font-weight:bold;
+    	font-size:26px;
+    	padding-left:15px;
+    	cursor:pointer;
+    	margin:5px -10px 0px 0px;
+    	text-shadow:1px 1px 1px #000;
+}
+
+.smallPrettyForm input[type="button"]:hover,
+.smallPrettyForm input[type="submit"]:hover,
+.smallPrettyForm input[type="reset"]:hover{
+    	color:#fff;
+}
+
+.smallPrettyForm p.submit{
+    	height:25px;
+}
+
+.smallPrettyForm label span{
+    	font-size:10px;
+    	line-height:20px;
+    	float:right;
+    	margin-left:3px;
+    	font-weight:bold;
+    	color:#f0f0f0;
+    	text-shadow:1px 0px 1px #000;
+}
+
+.noBorder{
+    	border: 0;
+}

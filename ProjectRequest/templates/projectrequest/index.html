@@ -1,0 +1,52 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Sales & Communications Project Request</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="Cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta name="expires" content="0" />
+    <meta name="ROBOTS" content="NOINDEX,FOLLOW" />
+    <meta name="resource-type" content="document" />
+    <meta name="revisit-after" content="2 days" />
+    <link rel="SHORTCUT ICON" href="/static/images/favicon.ico" />
+    <link rel="stylesheet" href="/static/projectrequest/css/reset.css" type="text/css" />
+    <link rel="stylesheet" href="/static/projectrequest/css/StyleSheet.css" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=Averia+Serif+Libre' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="/static/projectrequest/css/jquery-ui-1.8.18.custom.css" type="text/css" />
+    <script type="text/javascript" src="/static/projectrequest/js/jquery.js"></script>
+    <script type="text/javascript" src="/static/projectrequest/js/jquery.index.js"></script>
+    <script type="text/javascript" src="/static/projectrequest/js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="/static/projectrequest/js/jquery-ui-1.8.18.custom.min.js"></script>
+</head>
+<body>
+	<div id="container" class="roundify-lrg autoMargin">
+		<div class="prettyForm" id='contact'>
+		    <h2>Sales & Communications Project Request</h2>
+		    </br>
+		    </br>
+		    <form id='ContactForm' method='post' action=''>
+		    	{% csrf_token %}
+				<script>
+					$(function() {
+						$( "#id_requested_delivery_date" ).datepicker();
+					});
+				</script>
+				{% for field in form %}
+    				<p>
+        				{{ field.errors }}
+        				{{ field.label_tag }}: {{ field }}
+    				</p>
+				{% endfor %}
+		        <br/><br />
+		        <span class='submit'>
+		            <input id='subContact' type='submit' value='Submit'/>
+		            <input name='reset' type='reset' value='Reset'>
+		        </span>
+		        <input id='newrequest' name='newrequest' type='hidden' value='1'>
+		    </form>
+		</div>
+	</div>
+</body>
+</html>
