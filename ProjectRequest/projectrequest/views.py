@@ -29,7 +29,8 @@ def ldapquery(username):
         department = None
         print "No department"
         
-    return {'commonname':commonname, 'department':department}
+    #return {'commonname':commonname, 'department':department}
+    return {'commonname':'Chris Kucharski', 'department':'Technology'}
 
 @transaction.commit_on_success
 def showIndex(request):
@@ -111,3 +112,6 @@ def showIndex(request):
 
 def showThanks(request):
     return render_to_response('projectrequest/thanks.html')
+
+def hello_world(name):
+    return 'Hello %s' %name;

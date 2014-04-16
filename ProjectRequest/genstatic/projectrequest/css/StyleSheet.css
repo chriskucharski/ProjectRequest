@@ -5,7 +5,7 @@ html,body{
 
 body{
 	/*font: 76% arial,sans-serif;*/
-	font-family: 'Averia Serif Libre', cursive;
+	font-family: 'Averia Serif Libre';
 	text-align:center;
 	background-color: #023348;
 }
@@ -50,7 +50,7 @@ div#main h1{
 	margin-left: 25px;
 	margin-right: 25px;
 	/*font: bold 12px Verdana, Arial, Helvetica, sans-serif;*/
-	font-family: 'Averia Serif Libre', cursive;
+	font-family: 'Averia Serif Libre';
 }
 
 div#main form{
@@ -79,7 +79,7 @@ div#footer{
 	font-style: italic;
 	font-size: 10px;
 	/*font-family:Arial,Verdana,Helvitica,sans-serif;*/
-	font-family: 'Averia Serif Libre', cursive;
+	font-family: 'Averia Serif Libre';
 }
 
 div#footer a{
@@ -115,7 +115,7 @@ div#footer{
 
 .textfield h2{
 	/*font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;*/
-	font-family: 'Averia Serif Libre', cursive;
+	font-family: 'Averia Serif Libre';
 	font-size: 16pt;
         font-weight: bold;
 	color: navy;
@@ -125,7 +125,7 @@ div#footer{
 
 .textfield h3{
 	/*font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;*/
-	font-family: 'Averia Serif Libre', cursive;
+	font-family: 'Averia Serif Libre';
 	font-size: 12pt;
         font-weight: bold;
 	color: navy;
@@ -196,7 +196,7 @@ a:hover {
 .prettyForm h2{
     	text-shadow:2px 1px 2px #f9f9f9;
     	/*font-family: Georgia, serif;*/
-	font-family: 'Averia Serif Libre', cursive;
+	font-family: 'Averia Serif Libre';
     	font-size: 20px;
     	font-style: italic;
 }
@@ -205,7 +205,7 @@ a:hover {
     	color: black;
     	font-size: 14px;
     	/*font-family:Arial,Verdana,Helvitica,sans-serif;*/
-	font-family: 'Averia Serif Libre', cursive;
+	font-family: 'Averia Serif Libre';
     	text-align: justify;
 }
 
@@ -225,7 +225,7 @@ a:hover {
     	float:left;
     	margin:5px 0px 5px 0px;
     	/*font-family: Georgia, serif;*/
-	font-family: 'Averia Serif Libre', cursive;
+	font-family: 'Averia Serif Libre';
     	font-size: 16px;
     	font-style: italic;
     	font-weight: normal;
@@ -247,7 +247,7 @@ a:hover {
     	float:left;
     	margin:5px 0px 5px 0px;
     	/*font-family: Georgia, serif;*/
-	font-family: 'Averia Serif Libre', cursive;
+	font-family: 'Averia Serif Libre';
     	font-size: 16px;
     	font-style: italic;
     	font-weight: normal;
@@ -286,7 +286,7 @@ a:hover {
     	color:#B7312C;
     	border:none;
     	/*font-family: Georgia, serif;*/
-	font-family: 'Averia Serif Libre', cursive;
+	font-family: 'Averia Serif Libre';
     	font-weight:bold;
     	font-size:26px;
     	padding-left:15px;
@@ -318,7 +318,7 @@ a:hover {
     	margin-left: 25%;
     	margin-right: 25%;
     	/*font-family: Georgia, serif;*/
-	font-family: 'Averia Serif Libre', cursive;
+	font-family: 'Averia Serif Libre';
     	font-size: 12px;
     	font-style: italic;
 }
@@ -327,7 +327,7 @@ a:hover {
     	color: black;
     	font-size: 12px;
     	/*font-family:Arial,Verdana,Helvitica,sans-serif;*/
-	font-family: 'Averia Serif Libre', cursive;
+	font-family: 'Averia Serif Libre';
     	text-align: justify;
 }
 
@@ -341,7 +341,7 @@ a:hover {
     	float:left;
     	margin:5px 0px 5px 0px;
     	/*font-family: Georgia, serif;*/
-	font-family: 'Averia Serif Libre', cursive;
+	font-family: 'Averia Serif Libre';
     	font-size: 12px;
     	font-style: italic;
     	font-weight: normal;
@@ -376,7 +376,7 @@ a:hover {
     	color:#B7312C;
     	border:none;
     	/*font-family: Georgia, serif;*/
-	font-family: 'Averia Serif Libre', cursive;
+	font-family: 'Averia Serif Libre';
     	font-weight:bold;
     	font-size:26px;
     	padding-left:15px;
